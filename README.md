@@ -29,17 +29,22 @@ Este projeto é uma API REST desenvolvida em Java com Spring Boot, conectada a u
 A API retorna status HTTP apropriados (200, 201, 404) e respostas em JSON.
 
 ## Estrutura do projeto
-
+```text
 src
 └── main
-└── java
-└── com.dia312.springcrud
-├── controller -> UsersController.java
-├── dto -> UsersRecordDto.java
-├── model -> UsersModel.java
-└── repository -> Interface de persistência
+├── java
+│   └── com.dia312.springcrud
+│       ├── controller
+│       │   └── UsersController.java
+│       ├── dto
+│       │   └── UsersRecordDto.java
+│       ├── model
+│       │   └── UsersModel.java
+│       └── repository
+│           └── Interface de persistência
 └── resources
-└── application.properties -> Configuração do banco
+└── application.properties → Configuração do banco
+````
 
 
 ## Banco de dados
